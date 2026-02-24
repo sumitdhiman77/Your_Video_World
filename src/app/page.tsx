@@ -4,7 +4,6 @@ import VideoPlayer from "./components/VideoPlayer";
 export default async function Home() {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   let videos: any[] = [];
-
   try {
     videos = await apiClient.getVideos();
   } catch (err) {

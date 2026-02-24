@@ -14,8 +14,8 @@ if (!cached) {
 
 export async function connectToDatabase() {
   const opts = {
-    bufferCommands: true,
-    maxPoolSize: 10,
+    bufferCommands: false,
+    maxPoolSize: 1,
   };
   if (cached.conn) {
     return cached.conn;

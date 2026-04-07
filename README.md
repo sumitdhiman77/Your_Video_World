@@ -1,4 +1,4 @@
-# 🎬 YourVideoWorld 
+# 🎬 YourVideoWorld — A Scalable Cloud Video Streaming Platform 
 
 > **A Full-Stack Cloud Video Streaming Platform.** > Live Demo: [View App](https://yourvideoworld.vercel.app) | Repository: [GitHub](https://github.com/sumitdhiman77/yourvideoworld)
 

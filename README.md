@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎬 YourVideoWorld 
 
-## Getting Started
+> **A Full-Stack Cloud Video Streaming Platform.** > Live Demo: [View App](https://yourvideoworld.vercel.app) | Repository: [GitHub](https://github.com/sumitdhiman77/yourvideoworld)
 
-First, run the development server:
+## 📌 Overview
+YourVideoWorld is a modern streaming solution designed to handle media at scale. It allows users to upload videos to the cloud, manages secure authentication, and delivers content using adaptive streaming technology.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Key Features
+- 🔐 **Secure Auth:** Session management and protected routes via **NextAuth.js**.
+- 🎥 **Adaptive Streaming:** Implemented **HLS.js** for smooth buffer-free video delivery.
+- 📤 **Cloud Management:** Automated media uploads and optimization via **Cloudinary**.
+- 📱 **Responsive Design:** Fully optimized for mobile, tablet, and desktop using **Tailwind CSS**.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Technical Implementation
+- **Framework:** Next.js 14 (App Router)
+- **Language:** TypeScript (Type-safe development)
+- **Database:** MongoDB with Mongoose ODM
+- **Media Engine:** HLS.js & Video.js for cross-browser compatibility
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 💡 Engineering Challenges & Learnings
+- **Challenge:** Handling large video file uploads without crashing the server.
+- **Solution:** Integrated Cloudinary’s signed upload presets to offload processing to the cloud.
+- **Learning:** Gained deep insight into the **HLS (HTTP Live Streaming)** protocol and media segments.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ⚙️ Quick Start
+1. `git clone https://github.com/sumitdhiman77/yourvideoworld`
+2. `npm install`
+3. Create a `.env` file with your MongoDB, NextAuth, and Cloudinary keys.
+4. `npm run dev`
